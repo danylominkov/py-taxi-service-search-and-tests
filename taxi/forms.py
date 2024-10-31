@@ -14,7 +14,7 @@ class CarForm(forms.ModelForm):
 
     class Meta:
         model = Car
-        fields = ("models", "manufacturer", "drivers")
+        fields = ("model", "manufacturer", "drivers")
 
 
 class DriverCreationForm(UserCreationForm):
